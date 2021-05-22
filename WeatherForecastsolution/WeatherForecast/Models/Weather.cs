@@ -8,9 +8,10 @@ namespace WeatherForecast.Models
 {
     public class Weather
     {
-        [Key]
+        
         public int Id { get; set; }
         public DateTime Date { get; set; }
+        [Key]
         public string City { get; set; }
         public int highTemp { get; set; }
         public int lowTemp { get; set; }
